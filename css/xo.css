@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+.game{
+    background-color: black;
+    color: white;
+    margin: auto;
+    width: 525px;
+    height: 575px;
+    font-weight: 500px;
+}
+.title{
+    background-color: aquamarine;
+    padding: 5px 0;
+    margin: 5PX 0;
+    text-align: center;
+    font-size: 30px;
+    font-family: fantasy;
+    border-radius: 10px;
+    color: black;
+}
+span{
+    color: brown;
+}
+.square{
+    width: 170px;
+    height: 170px;
+    background-color: aqua;
+    float: left;
+    margin: 2px;
+    font-size: 100px;
+    text-align: center;
+    border-radius: 10px;
+    color: black;
+}
+.square:hover{
+    background-color: grey;
+    cursor: pointer;
+}
